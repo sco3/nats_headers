@@ -31,8 +31,8 @@ async def run():
 
         # Define headers
         headers = {
-            "asdf": "asdf",
-            "jkl": "jkl",
+            "asdf": f"asdf{count}",
+            "1": "",
         }
 
         # Publish the message to the subject with headers
